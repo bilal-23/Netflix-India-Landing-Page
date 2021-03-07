@@ -437,14 +437,14 @@ img {
     margin-top: 1rem;
   }
   .style-cards h1 {
-    font-size: 3rem;
+    font-size: 2.7rem;
     padding: 0.8rem;
     padding-left: 0;
     padding-bottom: 1rem;
   }
 
   .style-cards h3 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     line-height: 2rem;
   }
   .desc-1 {
@@ -466,5 +466,63 @@ img {
     height: 37%;
     top: 40%;
     left: -4px;
+  }
+
+  .card-2 {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 25px 10px 50px;
+  }
+  .desc-2 {
+    padding: 1rem;
+    text-align: center;
+    padding-bottom: 0;
+  }
+  .card-2 img {
+    width: 75%;
+    align-self: center;
+  }
+  .card-3 {
+    display: flex;
+    flex-direction: column;
+    padding: 25px 10px 50px;
+  }
+  .desc-3 {
+    padding: 1rem;
+    text-align: center;
+    padding-bottom: 0;
+  }
+  .card-3 img {
+    position: relative;
+    width: 80%;
+    align-self: center;
+  }
+  .card-3 video {
+    position: absolute;
+    left: -2;
+    top: 37%;
+    height: 29%;
+  }
+  .faq h1 {
+    font-size: 2.5rem;
+  }
+  .questions li {
+    font-size: 1.2rem;
+    width: 80%;
+  }
+  .faq p {
+    font-size: 1.2rem;
+    font-weight: 200;
+    padding: 0 7rem;
+    padding-top: 60px;
+  }
+  .input input {
+    width: 300px;
+    height: 2rem;
+  }
+}
+@media (max-width: 768px) {
+  .showcase {
+    height: 50vh;
   }
 }
