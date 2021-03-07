@@ -228,6 +228,14 @@ img {
   padding-top: 5rem;
   padding-bottom: 100px;
 }
+
+.dropdown {
+  display: none;
+  transition: display 1s ease;
+}
+.show {
+  display: block;
+}
 .faq h1 {
   font-size: 3rem;
   font-weight: 600;
@@ -249,6 +257,14 @@ img {
   width: 60%;
   margin: 5px;
   padding: 1.2rem 1.8rem;
+}
+.questions .dropdown {
+  background-color: #303030;
+  width: 60%;
+  text-align: left;
+}
+.questions .dropdown p {
+  padding: 1rem !important;
 }
 .questions span {
   display: inline-block;
@@ -510,6 +526,9 @@ img {
     font-size: 1.2rem;
     width: 80%;
   }
+  .questions .dropdown {
+    width: 80%;
+  }
   .faq p {
     font-size: 1.2rem;
     font-weight: 200;
@@ -585,12 +604,18 @@ img {
     font-size: 1rem;
     width: 90%;
   }
+  .questions .dropdown {
+    width: 90%;
+  }
   .faq p {
     font-size: 1rem;
     font-weight: 200;
     padding: 0 0rem;
     padding-top: 60px;
     display: none;
+  }
+  .questions .dropdown p {
+    display: block;
   }
   .input {
     display: none;
