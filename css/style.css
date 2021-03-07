@@ -523,6 +523,6 @@ img {
 }
 @media (max-width: 768px) {
   .showcase {
-    height: 50vh;
+    height: 70vh;
   }
 }
